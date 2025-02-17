@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yosia S.</title>
+    <style>
+        body {
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Courier New', Courier, monospace;
+            overflow: hidden;
+        }
+
+        .typing-container {
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        .typing {
+            font-size: 24px;
+            font-weight: bold;
+            white-space: nowrap;
+            display: inline-block;
+        }
+
+
+        .typing span {
+            opacity: 0;
+            display: inline-block;
+            animation: typing 3s steps(16) 1s forwards;
+        }
+
+        @keyframes typing {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .typing span:nth-child(1) { animation-delay: 0s; }
+        .typing span:nth-child(2) { animation-delay: 0.1s; }
+        .typing span:nth-child(3) { animation-delay: 0.2s; }
+        .typing span:nth-child(4) { animation-delay: 0.3s; }
+        .typing span:nth-child(5) { animation-delay: 0.4s; }
+        .typing span:nth-child(6) { animation-delay: 0.5s; }
+        .typing span:nth-child(7) { animation-delay: 0.6s; }
+        .typing span:nth-child(8) { animation-delay: 0.7s; }
+        .typing span:nth-child(9) { animation-delay: 0.8s; }
+        .typing span:nth-child(10) { animation-delay: 0.9s; }
+        .typing span:nth-child(11) { animation-delay: 1s; }
+        .typing span:nth-child(12) { animation-delay: 1.1s; }
+        .typing span:nth-child(13) { animation-delay: 1.2s; }
+        .typing span:nth-child(14) { animation-delay: 1.3s; }
+        .typing span:nth-child(15) { animation-delay: 1.4s; }
+        .typing span:nth-child(16) { animation-delay: 1.5s; }
+    </style>
+</head>
+<body>
+    <div class="typing-container">
+        <div class="typing">
+            <span>Y</span>
+            <span>o</span>
+            <span>s</span>
+            <span>i</span>
+            <span>a</span>
+            <span> </span>
+            <span>S</span>
+            <span>i</span>
+            <span>t</span>
+            <span>o</span>
+            <span>m</span>
+            <span>p</span>
+            <span>u</span>
+            <span>l</span>
+        </div>
+    </div>
+</body>
+</html>
